@@ -1,0 +1,72 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+        <s:Header>
+                <h:ServerVersionInfo MajorVersion="15" MinorVersion="0" MajorBuildNumber="847" MinorBuildNumber="31" Version="V2_8" xmlns:h="http://schemas.microsoft.com/exchange/services/2006/types" xmlns="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        </s:Header>
+        <s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <m:GetItemResponse xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types">
+                        <m:ResponseMessages>
+                                <m:GetItemResponseMessage ResponseClass="Success">
+                                        <m:ResponseCode>NoError</m:ResponseCode>
+                                        <m:Items>
+                                                <t:Contact>
+                                                        <t:ItemId Id="AQMkADcwZjI5YzU5LTE5NTEtNDZlYi04OAAwOC00MTViNzgwZThlNzgARgAAA8OW6QwElmRGncz+w6G2vwkHAAgM0tcH2kJNgU8cw5btVToAAAIBDwAAAAgM0tcH2kJNgU8cw5btVToAAAIcqQAAAA==" ChangeKey="EQAAABYAAAAIDNLXB9pCTYFPHMOW7VU6AACJCwqF"/>
+                                                        <t:ParentFolderId Id="AQMkADcwZjI5YzU5LTE5NTEtNDZlYi04OAAwOC00MTViNzgwZThlNzgALgAAA8OW6QwElmRGncz+w6G2vwkBAAgM0tcH2kJNgU8cw5btVToAAAIBDwAAAA==" ChangeKey="AQAAAA=="/>
+                                                        <t:ItemClass>IPM.Contact</t:ItemClass>
+                                                        <t:Subject>Darkwing Duck</t:Subject>
+                                                        <t:Sensitivity>Normal</t:Sensitivity>
+                                                        <t:Body BodyType="Text" IsTruncated="false"/>
+                                                        <t:DateTimeReceived>2016-07-22T06:08:29Z</t:DateTimeReceived>
+                                                        <t:Size>1325</t:Size>
+                                                        <t:Importance>Normal</t:Importance>
+                                                        <t:IsSubmitted>false</t:IsSubmitted>
+                                                        <t:IsDraft>true</t:IsDraft>
+                                                        <t:IsFromMe>false</t:IsFromMe>
+                                                        <t:IsResend>false</t:IsResend>
+                                                        <t:IsUnmodified>false</t:IsUnmodified>
+                                                        <t:DateTimeSent>2016-07-22T06:08:29Z</t:DateTimeSent>
+                                                        <t:DateTimeCreated>2016-07-22T06:08:29Z</t:DateTimeCreated>
+                                                        <t:DisplayCc/>
+                                                        <t:DisplayTo/>
+                                                        <t:HasAttachments>false</t:HasAttachments>
+                                                        <t:Culture>de-DE</t:Culture>
+                                                        <t:EffectiveRights>
+                                                                <t:CreateAssociated>false</t:CreateAssociated>
+                                                                <t:CreateContents>false</t:CreateContents>
+                                                                <t:CreateHierarchy>false</t:CreateHierarchy>
+                                                                <t:Delete>true</t:Delete>
+                                                                <t:Modify>true</t:Modify>
+                                                                <t:Read>true</t:Read>
+                                                                <t:ViewPrivateItems>true</t:ViewPrivateItems>
+                                                        </t:EffectiveRights>
+                                                        <t:LastModifiedName>Donald</t:LastModifiedName>
+                                                        <t:LastModifiedTime>2017-02-16T15:54:56Z</t:LastModifiedTime>
+                                                        <t:IsAssociated>false</t:IsAssociated>
+                                                        <t:WebClientReadFormQueryString>?ItemID=AQMkADcwZjI5YzU5LTE5NTEtNDZlYi04OAAwOC00MTViNzgwZThlNzgARgAAA8OW6QwElmRGncz%2Bw6G2vwkHAAgM0tcH2kJNgU8cw5btVToAAAIBDwAAAAgM0tcH2kJNgU8cw5btVToAAAIcqQAAAA%3D%3D&amp;exvsurl=1&amp;viewmodel=PersonaCardViewModelFactory</t:WebClientReadFormQueryString>
+                                                        <t:WebClientEditFormQueryString>?ItemID=AQMkADcwZjI5YzU5LTE5NTEtNDZlYi04OAAwOC00MTViNzgwZThlNzgARgAAA8OW6QwElmRGncz%2Bw6G2vwkHAAgM0tcH2kJNgU8cw5btVToAAAIBDwAAAAgM0tcH2kJNgU8cw5btVToAAAIcqQAAAA%3D%3D&amp;exvsurl=1&amp;viewmodel=</t:WebClientEditFormQueryString>
+                                                        <t:ConversationId Id="AAQkADcwZjI5YzU5LTE5NTEtNDZlYi04ODA4LTQxNWI3ODBlOGU3OAAQAPXSZ2ADs0hBp/eoW8qdYMk="/>
+                                                        <t:Flag>
+                                                                <t:FlagStatus>NotFlagged</t:FlagStatus>
+                                                        </t:Flag>
+                                                        <t:InstanceKey>AQAAAAAAAQ8BAAAAAAAcqQAAAAA=</t:InstanceKey>
+                                                        <t:EntityExtractionResult/>
+                                                        <t:FileAs/>
+                                                        <t:FileAsMapping>None</t:FileAsMapping>
+                                                        <t:DisplayName>Darkwing Duck</t:DisplayName>
+                                                        <t:GivenName>Darkwing</t:GivenName>
+                                                        <t:CompleteName>
+                                                                <t:FirstName>Darkwing</t:FirstName>
+                                                                <t:LastName>Duck</t:LastName>
+                                                                <t:FullName>Darkwing Duck</t:FullName>
+                                                        </t:CompleteName>
+                                                        <t:EmailAddresses>
+                                                                <t:Entry Key="EmailAddress1" Name="superhero@ducktales.com" RoutingType="SMTP" MailboxType="Contact">superhero@ducktales.com</t:Entry>
+                                                        </t:EmailAddresses>
+                                                        <t:JobTitle>Superhero</t:JobTitle>
+                                                        <t:Surname>Duck</t:Surname>
+                                                </t:Contact>
+                                        </m:Items>
+                                </m:GetItemResponseMessage>
+                        </m:ResponseMessages>
+                </m:GetItemResponse>
+        </s:Body>
+</s:Envelope>
