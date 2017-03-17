@@ -315,6 +315,39 @@ endif()
 add_subdirectory(${GTEST_ROOT} EXCLUDE_FROM_ALL)
 include_directories(${GTEST_INCLUDE_DIR})
 
+add_executable(autodiscover_fuzz
+     ${ews_SOURCES}
+     ${rapidxml_SOURCES}
+     fuzzing/fuzzmock.hpp
+     fuzzing/autodiscover_fuzz.cpp)
+target_link_libraries(autodiscover_fuzz ${CURL_LIBRARIES} ${Boost_LIBRARIES})
+set_target_properties(autodiscover_fuzz PROPERTIES
+     LINKER_LANGUAGE CXX
+     COMPILE_FLAGS "${SANITIZE_CXXFLAGS}"
+     LINK_FLAGS "${SANITIZE_LDFLAGS}")
+
+add_executable(user_fuzz
+     ${ews_SOURCES}
+     ${rapidxml_SOURCES}
+     fuzzing/fuzzmock.hpp
+     fuzzing/user_fuzz.cpp)
+target_link_libraries(user_fuzz ${CURL_LIBRARIES} ${Boost_LIBRARIES})
+set_target_properties(user_fuzz PROPERTIES
+     LINKER_LANGUAGE CXX
+     COMPILE_FLAGS "${SANITIZE_CXXFLAGS}"
+     LINK_FLAGS "${SANITIZE_LDFLAGS}")
+
+add_executable(response_fuzz
+     ${ews_SOURCES}
+     ${rapidxml_SOURCES}
+     fuzzing/fuzzmock.hpp
+     fuzzing/response_fuzz.cpp)
+target_link_libraries(response_fuzz ${CURL_LIBRARIES} ${Boost_LIBRARIES})
+set_target_properties(response_fuzz PROPERTIES
+     LINKER_LANGUAGE CXX
+     COMPILE_FLAGS "${SANITIZE_CXXFLAGS}"
+     LINK_FLAGS "${SANITIZE_LDFLAGS}")
+
 add_executable(tests
     ${ews_SOURCES}
     ${rapidxml_SOURCES}
