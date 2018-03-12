@@ -49,6 +49,8 @@ script:
   - cmake -DCMAKE_BUILD_TYPE=Release .. && make && make doc && ./tests --assets=../tests/assets --gtest_filter=Offline*.*
 
 deploy:
+  edge:
+    branch: v1.8.47
   provider: pages
   skip_cleanup: true
   local_dir: "build/html"
